@@ -1,4 +1,4 @@
-# Shell
+# Shell 🐚
 In Linux & Unix-like operating systems, a shell is a command-line interpreter that acts as an intermediary between the user & the operating system. It provides an interface for users to interact with the system by executing commands, running programs, & performing various tasks through a text-based interface.  
 
 When you type a command into a shell prompt & press Enter, the shell interprets that command, executes it, & displays the output. Additionally, shells offer features such as command history, tab completion, & scripting capabilities, enabling users to perform tasks efficiently.
