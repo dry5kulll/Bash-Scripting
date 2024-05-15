@@ -19,7 +19,9 @@ When you type a command into a shell prompt & press Enter, the shell interprets 
 - It is highly extensible & supports plugins & themes through frameworks like [Oh My Zsh](https://ohmyz.sh/), which make it easy to customize & enhance.
 
 
-
+### Shebang
+The shebang, also known as a hashbang, is a special character sequence at the beginning of a script file in Unix-like operating systems. It is used to specify the interpreter that should be used to execute the script.  
+The shebang consists of the characters `#!` followed by the path to the interpreter executable. For shell scripts, the shebang typically specifies the path to the shell interpreter, such as Bash or sh.  
 
 
 
