@@ -45,7 +45,8 @@ echo -e "This is \033[30;47mwhite\033[0m background."
 
 
 # Printf Command
-printf "\nString Notation: %s\n" "Hello James, How are you?"
+printf "\nHi, I am %s, my home directory is %s & my default shell is %s.\n" $USERNAME $HOME $SHELL
+printf "String Notation: %s\n" "Hello James, How are you?"
 printf "Integer Notation: %d\n" 136
 printf "Floating Point Notation: %.2f\n" "3.14159"
 printf "Character Notation: %c\n" "M"
