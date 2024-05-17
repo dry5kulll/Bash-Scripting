@@ -2,9 +2,9 @@
 
 # Special variables in shell scripting refer to predefined variables that store information about the script's execution environment or provide access to command-line arguments. 
 
-
 # Name of the Executing Script
 printf "\nScript Name: %s\n" "$0"
+
 
 # Positional Arguments
 printf "\nMy Name is %s %s." "$1" "$2"
@@ -13,6 +13,7 @@ printf " I am working as a %s at %s.\n" "$4" "$5"
 
 
 # All Positional Parameters
+
 # $@: It represents all command-line arguments passed to a script or function as separate words or an array.
 # It lets you access each command-line argument individually while creating Bash scripts.
 echo -e "\nStores the list of arguments as an array: $@"
