@@ -1,13 +1,6 @@
 #!/bin/bash
 
 
-# Arrays
-fruits=("apple" "mango" "banana")
-prime=(2 3 5 7 11)
-echo -e "\nSimple Array 1 : ${fruits[@]}."
-echo -e "Simple Array 2 : ${prime[@]}."
-
-
 # Associative arrays
 # -A : It is used to declare an associative array.
 declare -A colors
