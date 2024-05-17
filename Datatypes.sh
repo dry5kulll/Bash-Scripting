@@ -1,30 +1,5 @@
 #!/bin/bash
 
-# Integers / Longs
-a=100
-echo -e "\nThis is an Integer: $a"
-
-
-# Float / Doubles
-a=-100.001
-echo -e "\nThis is a Float: $a"
-
-
-# Strings / Characters
-a="Adam Warlock"
-echo -e "\nThis is a String: $a"
-
-replace="${a/Warlock/Crater}"
-echo "String Replaced: $replace"
-
-
-# Booleans
-# There are no Booleans in Bash. However, we can define the shell variable having value as 0 (" False ") or 1 (" True ") as per our needs.
-a=true
-b=0
-echo -e "\nThis is a boolean: $a"
-echo "This is a also boolean: $b"
-
 
 # Arrays
 fruits=("apple" "mango" "banana")
