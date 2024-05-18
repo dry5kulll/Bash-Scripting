@@ -1,17 +1,5 @@
 #!/bin/bash
 
-# ###################################################################
-# Splice an Array
-
-newArray=("cat" "dog" 0 "rabbit")
-newArray+=("Red" "Orange" -990 "Purple")
-echo "Original: ${newArray[@]}"
-echo "Spliced: ${newArray[@]:2:5}"
-echo "Spliced: ${newArray[2]}"
-echo "Spliced: ${newArray[5]}"
-
-
-# ###################################################################
 # Searching in Arrays
 
 a="Banana"
