@@ -1,18 +1,5 @@
 #!/bin/bash
 
-# Searching in Arrays
-
-a="Banana"
-
-for fruit in "${fruits[@]}"; do
-    if [ "$fruit" == "$a" ]; then
-        echo "[+] Match Found"
-        break
-    fi
-done
-
-
-# ###################################################################
 # Array Functions (Sort, Reverse, Join)
 
 echo -e "\nOriginal Array:" ${sport[@]}
