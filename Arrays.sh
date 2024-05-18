@@ -1,21 +1,6 @@
 #!/bin/bash
 
 # ###################################################################
-# Inserting an element into Array
-
-# Method 1
-myArray[6]="Fourth"
-myArray[5]="5th"
-myArray[4]="6"
-echo ${myArray[@]}
-
-# Method 2 - Append
-sport+=("golf" "Basketball")
-echo "Element Inserted: ${sport[@]}"
-echo
-
-
-# ###################################################################
 # Splice an Array
 
 newArray=("cat" "dog" 0 "rabbit")
